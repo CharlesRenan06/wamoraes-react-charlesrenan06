@@ -730,3 +730,25 @@ footer {
         gap: 20px;
     }
 }
+
+/* ===== LANDING PAGE ===== */
+html { scroll-behavior: smooth; }
+section[id] { scroll-margin-top: 60px; }
+
+/* A Landing usa seções de largura total */
+main.landing { max-width: none; margin: 0; padding: 0; }
+
+/* Menu fixo no topo (só no computador) */
+@media (min-width: 701px) {
+  nav { position: sticky; top: 0; z-index: 1030; }
+}
+
+/* Chamada final */
+.chamada-final {
+  background-color: #111111;
+  color: #ffffff;
+  padding: 60px 20px;
+  border-top: 4px solid #FFD400;
+}
+.chamada-final h2 { color: #FFD400; margin-bottom: 10px; }
+.chamada-final p { color: #cccccc; }
