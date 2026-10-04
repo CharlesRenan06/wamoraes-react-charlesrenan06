@@ -107,7 +107,7 @@ main {
 /* BANNER (index.html) */
 
 .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('Imagens/images.carros.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/Imagens/images.carros.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -752,3 +752,7 @@ main.landing { max-width: none; margin: 0; padding: 0; }
 }
 .chamada-final h2 { color: #FFD400; margin-bottom: 10px; }
 .chamada-final p { color: #cccccc; }
+
+.landing .banner { border-radius: 0; margin-bottom: 0; }
+.landing .apresentacao { margin-bottom: 0; }
+.landing .destaques { margin-bottom: 0; }
