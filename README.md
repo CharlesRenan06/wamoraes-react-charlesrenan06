@@ -11,7 +11,7 @@ Charles Renan Tavares da Silva
  - Autor(a) do index.html original: Kayky 
   
 ## Site publicado 
-https://bellamassa-seunome.netlify.app 
+https://wamoraes-charlesrenan06.netlify.app 
   
 ## Como executar 
 npm install 
