@@ -5,8 +5,18 @@ const destaques = [
     titulo: "Qualidade Garantida",
     texto: "Trabalhamos apenas com marcas reconhecidas e produtos de procedência confiável para o seu veículo.",
   },
-  { id: 2, icone: "TROQUE", titulo: "TROQUE", texto: "TROQUE" },
-  { id: 3, icone: "TROQUE", titulo: "TROQUE", texto: "TROQUE" },
+  {
+    id: 2,
+    icone: "🛒",
+    titulo: "Grande Variedade",
+    texto: "Temos um amplo catálogo com peças e acessórios para os mais diversos tipos de veículos e modelos.",
+  },
+  {
+    id: 3,
+    icone: "😊",
+    titulo: "Atendimento Especial",
+    texto: "Nossa equipe está sempre pronta para te ajudar a encontrar exatamente o que você precisa.",
+  },
 ]
 
 export default function Destaques() {
