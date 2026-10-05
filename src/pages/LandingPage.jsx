@@ -11,10 +11,10 @@ export default function LandingPage() {
     <>
       <Navbar />
       <main className="landing">
-        <Hero />|
-        <Apresentacao />|
-        <Destaques />|
-        <Produtos />|
+        <Hero />
+        <Apresentacao />
+        <Destaques />
+        <Produtos />
         <ChamadaFinal />
       </main>
       <Footer />
